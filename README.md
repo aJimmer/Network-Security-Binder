@@ -44,8 +44,8 @@ After renaming result to result.gif and double-clicking, we can view the origina
 Command arguments and their roles
 * copy: command used to copy file(s) to another location
 * /B: binary mode, copies file(s) byte for byte
-* <gif file name>: source, the file to store in the archive
-* <7z file name>: destination, the archive containing the worm
+* `<gif file name>`: source, the file to store in the archive
+* `<7z file name>`: destination, the archive containing the worm
 * result: the combined output from the two files, gif and 7z files.
 
 Windows handles files by simply using the file extension to designate the default program used to open the file. For example, a *.html file will likely be opened by Internet Explorer.
