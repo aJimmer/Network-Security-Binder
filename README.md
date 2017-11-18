@@ -42,11 +42,11 @@ After renaming result to result.gif and double-clicking, we can view the origina
 1. Explain what is happening. Do some research in order to find out what the above copy command does. In your explanation be sure to explain the role of each argument in the above command. Also, be sure to explain how Windows handles files which leads to the above behavior. Include the answers to these questions in the README file you submit.
 
 Command arguments and their roles
-copy: command used to copy file(s) to another location
-/B: binary mode, copies file(s) byte for byte
-<gif file name>: source, the file to store in the archive
-<7z file name>: destination, the archive containing the worm
-result: the combined output from the two files, gif and 7z files.
+* copy: command used to copy file(s) to another location
+* /B: binary mode, copies file(s) byte for byte
+* <gif file name>: source, the file to store in the archive
+* <7z file name>: destination, the archive containing the worm
+* result: the combined output from the two files, gif and 7z files.
 
 Windows handles files by simply using the file extension to designate the default program used to open the file. For example, a *.html file will likely be opened by Internet Explorer.
 
@@ -76,6 +76,6 @@ We even tested this technique using an EICAR test-file which is often used to te
 
 ### Commands
 The binder program shall be invoked using:
-$python binder.py <PROG1> <PROG2> ... <PROGN>
+`$python binder.py <PROG1> <PROG2> ... <PROGN>`
 command line where each PROGi is an executable program. For example,
-$python binder.py /usr/bin/ls /usr/bin/pwd
+`$python binder.py /usr/bin/ls /usr/bin/pwd`
